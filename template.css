@@ -1,0 +1,1213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,400&family=Sacramento&display=swap');
+
+.aberto {
+    display: flex !important;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FEFAEF;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    position: fixed;
+    padding: 5px;
+    width: 20%;
+    background-color: #F2DBCE;
+    height: 100vh;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid #A4113A;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    list-style: none;
+    font-family: 'sacramento';
+    font-size: 34px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.menu li:hover {
+    color: #A4113A;
+    border-bottom: 1px solid #A4113A;
+}
+
+.menu li div:hover {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteudo {
+    width: 80%;
+}
+
+
+.menu-icon img {
+    width: 55px;
+    position: fixed;
+    background-color: #f1a445;
+    padding: 10px;
+    border: 2px solid #ce852d;
+    border-radius: 50%;
+    top: 15px;
+    right: 15px;
+    display: none;
+}
+
+
+
+.botao-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao{
+    padding: 15px;
+    background-color: #A4113A;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-flex;
+    font-family: 'Montserrat';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-bg {
+    background-image: url('imagens/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    background-color: #f2dbced0;
+    font-family: 'Montserrat';
+    border: 3px solid #A4113A;
+    border-radius: 30px;
+}
+
+.logo-area{
+    display:flex;
+    justify-content: center;
+}
+
+.logo-area img{
+    width: 320px;
+}
+
+.box h1 {
+    font-size: 48px;
+    color: #A4113A;
+    font-weight: bolder;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.box .p2 {
+    font-weight: bold;
+    color: #A4113A;
+    text-align: center;
+}
+
+.box .p3 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+.section-title {
+    display: inline-flex;
+    padding: 10px 100px;
+    font-family: 'Montserrat';
+    color: #A4113A;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 24px;
+    border-top-right-radius: 30px;
+    border-top: 2px solid #A4113A;
+    border-right: 2px solid #A4113A;
+    border-bottom: 2px solid #A4113A;
+}
+
+.terapia-conteudo {
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.terapia-text1 div{
+    background-color: #f2dbce;
+    border: 2px solid #A4113A;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.terapia-text1 img {
+    margin-top: 15px;
+    width: 65%;
+    min-width: 500px;
+}
+
+.terapia-text2 {
+    min-width: 270px;
+}
+
+.terapia-text2-area{
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 2px solid #A4113A;
+    font-family: 'Montserrat';
+}
+
+
+.terapia-text2-area h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.terapia-text2-area ul:nth-child(1) {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.terapia-text2-area ul:nth-child(2) {
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.terapia-text2-area ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.descricão {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+
+}
+
+.descricão-box {
+    display: flex;
+}
+
+.descricão-box-unit {
+    padding: 15px;
+    text-align: justify;
+}
+
+#unit-1,
+#unit-2,
+#unit-3 {
+    padding: 20px;
+    line-height: 24px;
+    flex: 1;
+    font-size: 16px;
+}
+
+
+#unit-1 {
+    background-color: #fff0e5;
+}
+
+#unit-2 {
+    background-color: #ffe6d5;
+}
+
+#unit-3 {
+    background-color: #fff0e5;
+}
+
+
+
+
+
+
+
+
+.terapiaonline,
+.sobremim .titulo {
+    font-family: 'Montserrat';
+    background-color: #fff;
+
+}
+
+.terapiaonline .titulo,
+.sobremim .titulo {
+    text-align: center;
+    background-color: #fff;
+    font-weight: 600;
+    color: #A4113A;
+    border-top: 2px solid #A4113A;
+    border-bottom: 2px solid #A4113A;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.terapiaonline-area {
+    display: flex;
+    align-items: center;
+    margin: 30px 10px 0px 10px;
+
+}
+
+.terapiaonline-area .text1 div {
+    background-color: #F2B56B;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.terapiaonline-area .text1 div p{
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+
+.terapiaonline-area .text2 {
+    display: flex;
+    justify-content: center;
+}
+
+.terapiaonline-area .text2 img{
+    max-width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobremim {
+    margin-bottom: 20px;
+}
+
+.sobremim-area {
+    display: flex;
+    margin: 30px 10px;
+    font-family: 'Montserrat';
+    align-items: center;
+
+
+}
+
+.sobremim-area1 img {
+    width: 350px;
+    margin-bottom: 20px;
+    background-color: #F2DBCE;
+    border: 2px solid #A4113A;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.sobremim-area2 {
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid #A4113A;
+    text-align: left;
+}
+
+.sobremim-area2 h3 {
+    margin-bottom: 5px;
+}
+
+.sobremim-area2 h4 {
+    font-size: 16px;
+}
+
+.sobremim-area2 p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.sobremim-redes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sobremim-redes a {
+    color: #000;
+}
+
+.sobremim-redes-area {
+    background-color: #F2B56B;
+    width: 180px;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+
+.sobremim-redes div img {
+    width: 65px;
+    margin-top: 20px;
+}
+
+
+.sobremim-videos {
+    background-color: #F2DBCE;
+    border: 2px solid #A4113A;
+    border-radius: 30px 0px 30px 0px;
+    max-width: 900px;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px  rgba(0, 0, 0, 0.267);
+}
+
+.sobremim-videos-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobremim-videos-area .sobremim-videos-imagem:nth-child(2) {
+    margin: 0px 15px;
+}
+
+.sobremim-videos-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sobremim-videos-imagem img{
+    max-width: 250px;
+    border: 2px solid #A4113A;
+    border-radius: 15%;
+    width: 100%;
+}
+
+.botao-instagram {
+    margin-top: 20px;
+}
+
+
+.botao-instagram a {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-instagram img{
+    width: 80%;
+    max-width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atendimentoonline {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.atendimentoonline-conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 10px 0px 10px;
+}
+
+.atendimentoonline-conteudo img {
+    width: 75%;
+    max-width: 575px;
+}
+
+.atendimentoonline-conteudo .text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat';
+    background-color: #F2B56B;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.atendimentoonline-conteudo .text-area p {
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+
+
+
+
+.avaliacao-conteudo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.avaliacao-box {
+    background-color: #f2b56b59;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #A4113A;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.duvidas-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.duvidas-box {
+    background-color: #F2DBCE;
+    border: 2px solid #A4113A;
+    width: 60%;
+    margin: auto;
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.duvidas-box-resposta {
+    display: none;
+    width: 100%;
+    background-color: #FEFAEF;
+    font-weight: 400;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #000;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .aviso {
+    background-color: #FEFAEF;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+footer .identificação {
+    padding: 10px;
+    background-color: #F2B56B;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1800px) {
+
+    .menu {
+        position: sticky;
+        top: 0px;
+    }
+
+    .container {
+        border-right: 1px solid #A4113A;
+        border-left: 1px solid #A4113A;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:1200px) {
+    .atendimentoonline-conteudo {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .atendimentoonline-conteudo img {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 1131px) {
+    .terapiaonline-area {
+        flex-direction: column;
+    }
+
+    .terapiaonline-area .text1 div {
+        max-width: 700px;
+    }
+
+    .terapiaonline-area .text2 img {
+        width: 70%;
+        margin: 40px 0px;
+    }
+
+
+
+    .descricão-box {
+        display: block;
+        background-color: #fefaef;
+        border: none;
+    }
+    
+    .descricão-box-unit {
+        padding: 0;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .terapia-conteudo {
+        flex-direction: column;
+    }
+
+    .terapia-text1 div {
+        margin: 0px;
+    }
+
+    .terapia-text2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .terapia-text2-area {
+        max-width: 600px;
+        margin: 0px;
+    }
+
+    .terapia-text2-area div{
+        display: flex;
+    }
+
+    .terapia-text2-area ul:nth-child(1) {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .terapia-text2-area ul:nth-child(2) {
+        margin-top: 20px;
+    }
+
+
+    .terapiaonline-area {
+        flex-direction: column;
+    }
+
+    .terapiaonline-area .text1 div {
+        max-width: 700px;
+    }
+
+    .terapiaonline-area .text2 img {
+        width: 70%;
+        margin: 40px 0px;
+    }
+
+    .sobremim-area {
+        flex-direction: column-reverse;
+    }
+
+    .sobremim-area1 {
+        margin-top: 20px;
+    }
+
+    .sobremim-area1 img {
+        width: 80%;
+        max-width: 450px;
+        background-color: #F2DBCE;
+        border: 2px solid #A4113A;
+        border-radius: 50%;
+        margin-right: 0px;
+        display: block;
+        margin: 0px auto 20px auto;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .menu {
+        display: none;
+        width: 35%;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .menu-icon img {
+        display: block;
+    }
+
+    .duvidas-box {
+        
+        width: 90%;
+       
+    }
+}
+
+@media (max-width: 768px) {
+
+    
+
+    .atendimentoonline-conteudo {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .atendimentoonline-conteudo img {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .terapiaonline-area .text2 img {
+        width: 100%;
+        margin: 20px 0px 40px 0px;
+    }
+
+    
+}
+
+    
+
+
+
+
+@media (max-width: 720px) {
+
+    .logo-area img {
+        width: 245px;
+    }
+
+    .box h1 {
+        font-size: 36px;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .sobremim-videos-area {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .sobremim-videos {
+        width: 280px;
+    }
+
+    .sobremim-videos-area .sobremim-videos-imagem:nth-child(2) {
+        margin: 15px 0px;
+    }
+}
+
+@media (max-width: 675px) {
+
+    .terapiaonline .titulo {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 560px) {
+    
+    .menu {
+        width: 50%;
+    }
+    
+    .box h1 {
+        font-size: 31px;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+
+    .sobremim-redes div img {
+        width: 60px;
+        margin-top: 20px;
+    }
+
+    .botao{
+    font-size: 14px;
+    padding: 10px;
+    background-color: #A4113A;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-flex;
+    font-family: 'Montserrat';
+    }
+
+    .terapia-text2-area {
+        max-width: 400px;
+    }
+
+    .terapia-text2-area .campos{
+        display: block;
+    }
+
+    .terapia-text2-area ul:nth-child(1) {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .terapia-text2-area ul:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    #unit-1,
+    #unit-2,
+    #unit-3 {
+    font-size: 14px;
+}
+}
+
+
+@media (max-width: 530px) {
+
+    .terapia-text1 img {
+        margin-top: 15px;
+        width: 100%;
+        min-width: 100px;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+
+    .sobremim-area2 h3 {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 460px) {
+       
+    .logo-area img {
+        width: 215px;
+    }
+    
+    .box h1 {
+        font-size: 28px;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .terapia-text2-area ul li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+
+    .section-title {
+        padding: 10px 70px;
+        font-size: 20px;
+    }
+
+
+    .sobremim-redes div img {
+        width: 60px;
+        margin-top: 20px;
+    }
+    
+    .duvidas-box {
+        font-size: 14px;
+    }
+    
+}
+
+
+
+@media (max-width: 425px) {
+
+    .terapia-text1 div {
+        line-height: 24px;        
+        font-size: 14px;
+    }
+
+
+    .terapiaonline-area .text1 div {
+        max-width: 700px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .sobremim-area2 h3 {
+        font-size: 14px;
+    }
+
+    .sobremim-area2 h4 {
+        font-size: 12px;
+    }
+
+    .sobremim-area2 p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .atendimentoonline-conteudo .text-area {
+        font-size: 14px;
+    }
+
+    
+}   
+
+
+
+@media (max-width: 415px) {
+
+    .box h1 {
+        font-size: 26px;
+    }
+
+    .sobremim-redes {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobremim-redes-area {
+        background-color: #F2B56B;
+        width: 200px;
+        padding: 20px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .sobremim-redes div img {
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    .atendimentoonline-conteudo .text-area p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+}
+
+
+
+@media (max-width: 375px) {
+
+    .menu li {
+        font-size: 34px;  
+    }
+
+
+    .box {
+        padding: 10px;
+    }
+
+    .box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .terapia-text1 div {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .terapia-text2-area ul li {
+        font-size: 14px;
+    }
+
+    .sobremim-area2 h3 {
+        font-size: 16px;
+    }
+    
+    .sobremim-area2 h4 {
+        font-size: 12px;
+    }
+    
+    .sobremim-area2 p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .sobremim-videos-area {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .sobremim-videos {
+        width: 225px;
+    }
+
+    .sobremim-videos-area .sobremim-videos-imagem:nth-child(2) {
+        margin: 15px 0px;
+    }
+
+    .duvidas-box {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .menu li {
+        font-size: 30px;  
+    }
+
+    
+}
